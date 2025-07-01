@@ -92,13 +92,8 @@ header a {
     border-radius:8px;
 
     /* For Button size, otherwise it take the whole width space (because of flex column, default align-items: stretch)*/
-    width: fit-content; 
-
-    /* Other solution for the button width : */
-
-    /*
-    flex-grow: 0;
-    width: auto;
     align-self: flex-start;
+    /* Other solution for the button width : 
+    width: fit-content;  
     */
 }
