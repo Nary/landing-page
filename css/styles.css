@@ -1,3 +1,104 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
 body {
     background-color: white;
+    font-family: 'Roboto';
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    
+}
+
+#header_logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight:900;
+}
+header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: #E5E7EB;
+    display: flex;
+    padding: 10px 10px;
+}
+
+#section_one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+#section_one > div {
+    width: 50%;
+}
+#section_one > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#section_one h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    text-wrap: wrap;
+}
+
+#section_one_img {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    padding: 5px;
+}
+#section_one_img img{
+    border: 10px solid white;
+   
+    max-width: 600px;
+    max-height: 300px;
+}
+
+#section_one button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius:8px;
+
+    /* For Button size, otherwise it take the whole width space (because of flex column, default align-items: stretch)*/
+    width: fit-content; 
+
+    /* Other solution for the button width : */
+
+    /*
+    flex-grow: 0;
+    width: auto;
+    align-self: flex-start;
+    */
 }
