@@ -99,5 +99,44 @@ header a {
 }
 
 #section_two {
-    
+    display: flex;
+    flex-direction: column;
+}
+#section_two h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+#section_two img {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    /* max-width: 200px; */
+    /* max-height: 200px; */
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#img-dark-dog {
+    object-position: 30%;
+}
+.grp_horiz {
+    display: flex;
+}
+
+.div_img_info {
+
+}
+#section_three {
+    background-color: #E5E7EB;
+}
+
+#section_four {
+
+}
+
+footer {
+    background-color: #1f2937;
 }
